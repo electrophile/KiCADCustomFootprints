@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  27-Nov-13 21:45:29
+PCBNEW-LibModule-V1  28-Nov-13 11:56:51
 # encoding utf-8
 Units mm
 $INDEX
@@ -18,13 +18,15 @@ CAP-ELEC-5MMX10MM
 CAP-ELEC-5MMx12.5MM
 CAP-ELEC-7.5MM
 CAP-ELEC-7.5MMx16MM
-Capacitor-SMD-0805-HandSoldering
-Capacitor-SMD-0805-ReflowWave
-Capacitor-SMD-1206-HandSoldering
-Capacitor-SMD-1206-ReflowWave
-Capacitor-SMD-1210-ReflowWave
-Capacitor-SMD-2512-HandSoldering
-Capacitor-SMD-2512-ReflowWave
+Capacitor-SMD-0805-HandSolder
+Capacitor-SMD-0805-Reflow
+Capacitor-SMD-1206-HandSolder
+Capacitor-SMD-1206-Reflow
+Capacitor-SMD-1210-Reflow
+Capacitor-SMD-2512-HandSolder
+Capacitor-SMD-2512-Reflow
+CRYSTAL-HC49S
+CRYSTAL-HC49U-V
 DFS-CASE
 FUSE-22MM-PITCH
 HOLE-M1
@@ -55,14 +57,14 @@ MSOP-12-HEAT-PAD
 MSOP-16
 PQFN-16-THERMAL-PAD
 PTC-FUSE-0805
-Resistor-SMD-0805-HandSoldering
-Resistor-SMD-0805-ReflowWave
-Resistor-SMD-1206-HandSoldering
-Resistor-SMD-1206-ReflowWave
-Resistor-SMD-1210-ReflowWave
-Resistor-SMD-2010-ReflowWave
-Resistor-SMD-2512-HandSoldering
-Resistor-SMD-2512-ReflowWave
+Resistor-SMD-0805-HandSolder
+Resistor-SMD-0805-Reflow
+Resistor-SMD-1206-HandSolder
+Resistor-SMD-1206-Reflow
+Resistor-SMD-1210-Reflow
+Resistor-SMD-2010-Reflow
+Resistor-SMD-2512-HandSolder
+Resistor-SMD-2512-Reflow
 SOT23-DUAL-DIODE
 SUPER-SOT23-6
 TESTPAD
@@ -70,9 +72,8 @@ TO-263AB
 TQFP32
 USB-A-H
 USB-A-MALE
+USB-MICRO-B-47346-00001
 USB-MINI-SMD
-crystal-HC49S
-crystal-HC49U-V
 $EndINDEX
 $MODULE 3386G_SQUARE_TRIMPOT
 Po 0 0 0 15 522D6825 00000000 ~~
@@ -585,16 +586,16 @@ Ne 0 ""
 Po 3.75 0
 $EndPAD
 $EndMODULE CAP-ELEC-7.5MMx16MM
-$MODULE Capacitor-SMD-0805-HandSoldering
+$MODULE Capacitor-SMD-0805-HandSolder
 Po 0 0 0 15 528C3E15 00000000 ~~
-Li Capacitor-SMD-0805-HandSoldering
+Li Capacitor-SMD-0805-HandSolder
 Cd Capacitor, SMD, 0805, Hand soldering,
 Kw Capacitor, SMD, 0805, Hand soldering,
 Sc 0
 AR 
 Op 0 0 0
 T0 0.127 0 0.762 0.762 900 0.127 N V 21 N "C"
-T1 0.20066 2.60096 1 1 0 0.15 N I 21 N "Capacitor-SMD-0805-HandSoldering"
+T1 0.20066 2.60096 1 1 0 0.15 N I 21 N "Capacitor-SMD-0805-HandSolder"
 DS 0.635 0.889 2.286 0.889 0.127 21
 DS 2.286 0.889 2.286 -0.889 0.127 21
 DS 2.286 -0.889 0.635 -0.889 0.127 21
@@ -621,17 +622,17 @@ Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE Capacitor-SMD-0805-HandSoldering
-$MODULE Capacitor-SMD-0805-ReflowWave
+$EndMODULE Capacitor-SMD-0805-HandSolder
+$MODULE Capacitor-SMD-0805-Reflow
 Po 0 0 0 15 528C3E30 00000000 ~~
-Li Capacitor-SMD-0805-ReflowWave
+Li Capacitor-SMD-0805-Reflow
 Cd Capacitor, SMD, 0805, Reflow, Wave,
 Kw Capacitor, SMD, 0805, Reflow, Wave,
 Sc 0
 AR 
 Op 0 0 0
 T0 0.127 0 0.762 0.762 900 0.127 N V 21 N "C"
-T1 0.20066 2.60096 0.889 0.889 0 0.127 N V 21 N "Capacitor-SMD-0805-ReflowWave"
+T1 0.20066 2.60096 0.889 0.889 0 0.127 N V 21 N "Capacitor-SMD-0805-Reflow"
 DS 0.635 -0.889 1.651 -0.889 0.127 21
 DS 1.651 -0.889 1.651 0.889 0.127 21
 DS 1.651 0.889 0.635 0.889 0.127 21
@@ -652,17 +653,17 @@ At SMD N 00888000
 Ne 0 ""
 Po 1.00076 0
 $EndPAD
-$EndMODULE Capacitor-SMD-0805-ReflowWave
-$MODULE Capacitor-SMD-1206-HandSoldering
+$EndMODULE Capacitor-SMD-0805-Reflow
+$MODULE Capacitor-SMD-1206-HandSolder
 Po 0 0 0 15 528C3E59 00000000 ~~
-Li Capacitor-SMD-1206-HandSoldering
-Cd Capacitor, SMD, 1206, HandSoldering,
+Li Capacitor-SMD-1206-HandSolder
+Cd Capacitor, SMD, 1206, HandSolder,
 Kw Capacitor, SMD, 1206, Hand soldering,
 Sc 0
 AR 
 Op 0 0 0
 T0 0.127 0 0.762 0.762 900 0.127 N V 21 N "C"
-T1 2.70002 2.70002 1 1 0 0.15 N I 21 N "Capacitor-SMD-1206-HandSoldering"
+T1 2.70002 2.70002 1 1 0 0.15 N I 21 N "Capacitor-SMD-1206-HandSolder"
 DS 1.27 -1.016 3.683 -1.016 0.127 21
 DS 3.683 -1.016 3.683 1.016 0.127 21
 DS 3.683 1.016 1.27 1.016 0.127 21
@@ -689,17 +690,17 @@ Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE Capacitor-SMD-1206-HandSoldering
-$MODULE Capacitor-SMD-1206-ReflowWave
+$EndMODULE Capacitor-SMD-1206-HandSolder
+$MODULE Capacitor-SMD-1206-Reflow
 Po 0 0 0 15 528C3E70 00000000 ~~
-Li Capacitor-SMD-1206-ReflowWave
+Li Capacitor-SMD-1206-Reflow
 Cd Capacitor, SMD, 1206, Reflow, Wave,
 Kw Capacitor, SMD, 1206, Reflow, Wave,
 Sc 0
 AR 
 Op 0 0 0
 T0 0.127 0 0.762 0.762 900 0.127 N V 21 N "C"
-T1 2.70002 2.70002 0.889 0.889 0 0.127 N V 21 N "Capacitor-SMD-1206-ReflowWave"
+T1 2.70002 2.70002 0.889 0.889 0 0.127 N V 21 N "Capacitor-SMD-1206-Reflow"
 DS 1.143 -1.016 2.54 -1.016 0.127 21
 DS 2.54 -1.016 2.54 1.016 0.127 21
 DS 2.54 1.016 1.143 1.016 0.127 21
@@ -720,10 +721,10 @@ At SMD N 00888000
 Ne 0 ""
 Po 1.69926 0
 $EndPAD
-$EndMODULE Capacitor-SMD-1206-ReflowWave
-$MODULE Capacitor-SMD-1210-ReflowWave
+$EndMODULE Capacitor-SMD-1206-Reflow
+$MODULE Capacitor-SMD-1210-Reflow
 Po 0 0 0 15 528C3E82 00000000 ~~
-Li Capacitor-SMD-1210-ReflowWave
+Li Capacitor-SMD-1210-Reflow
 Cd Resistor, SMD, 1210, Reflow, Wave,
 Kw Resistor, SMD, 1210, Reflow, Wave,
 Sc 0
@@ -731,7 +732,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0.127 0 0.762 0.762 900 0.127 N V 21 N "C"
-T1 -0.20066 3.40106 0.889 0.889 0 0.127 N I 21 N "Resistor_SMD1210_ReflowWave_RevA_Date21Jun2010"
+T1 -0.20066 3.40106 0.889 0.889 0 0.127 N I 21 N "Resistor_SMD1210_Reflow_RevA_Date21Jun2010"
 DS -2.667 -1.524 -2.667 1.524 0.127 21
 DS 2.667 1.524 2.667 -1.524 0.127 21
 DS 1.27 1.524 2.667 1.524 0.127 21
@@ -752,17 +753,17 @@ At SMD N 00888000
 Ne 0 ""
 Po 1.80086 0
 $EndPAD
-$EndMODULE Capacitor-SMD-1210-ReflowWave
-$MODULE Capacitor-SMD-2512-HandSoldering
+$EndMODULE Capacitor-SMD-1210-Reflow
+$MODULE Capacitor-SMD-2512-HandSolder
 Po 0 0 0 15 528AE5C6 00000000 ~~
-Li Capacitor-SMD-2512-HandSoldering
+Li Capacitor-SMD-2512-HandSolder
 Cd Capacitor, SMD, 2512, Hand soldering,
 Kw Capacitor, SMD, 2512, Hand soldering,
 Sc 0
 AR 
 Op 0 0 0
 T0 0 0 1 1 0 0.15 N V 21 N "C"
-T1 -0.39878 4.20116 1 1 0 0.15 N I 21 N "Capacitor-SMD-2512-HandSoldering"
+T1 -0.39878 4.20116 1 1 0 0.15 N I 21 N "Capacitor-SMD-2512-HandSolder"
 DS 2.54 -1.905 7.366 -1.905 0.127 21
 DS 7.366 -1.905 7.366 1.905 0.127 21
 DS 7.366 1.905 2.54 1.905 0.127 21
@@ -783,17 +784,17 @@ At SMD N 00888000
 Ne 0 ""
 Po 4.8006 0
 $EndPAD
-$EndMODULE Capacitor-SMD-2512-HandSoldering
-$MODULE Capacitor-SMD-2512-ReflowWave
+$EndMODULE Capacitor-SMD-2512-HandSolder
+$MODULE Capacitor-SMD-2512-Reflow
 Po 0 0 0 15 528AE643 00000000 ~~
-Li Capacitor-SMD-2512-ReflowWave
+Li Capacitor-SMD-2512-Reflow
 Cd Capacitor, SMD, 2512, Reflow, Wave,
 Kw Capacitor, SMD, 2512, Reflow, Wave,
 Sc 0
 AR 
 Op 0 0 0
 T0 0 0 0.889 0.889 0 0.127 N V 21 N "C"
-T1 -0.39878 4.20116 0.889 0.889 0 0.127 N V 21 N "Capacitor-SMD-2512-ReflowWave"
+T1 -0.39878 4.20116 0.889 0.889 0 0.127 N V 21 N "Capacitor-SMD-2512-Reflow"
 DS 2.54 -1.905 4.826 -1.905 0.127 21
 DS 4.826 -1.905 4.826 1.905 0.127 21
 DS 4.826 1.905 2.54 1.905 0.127 21
@@ -814,7 +815,7 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.50012 0
 $EndPAD
-$EndMODULE Capacitor-SMD-2512-ReflowWave
+$EndMODULE Capacitor-SMD-2512-Reflow
 $MODULE DFS-CASE
 Po 0 0 0 15 5264C3FB 00000000 ~~
 Li DFS-CASE
@@ -2520,9 +2521,9 @@ Ne 0 ""
 Po 1.1 0
 $EndPAD
 $EndMODULE PTC-FUSE-0805
-$MODULE Resistor-SMD-0805-HandSoldering
+$MODULE Resistor-SMD-0805-HandSolder
 Po 0 0 0 15 528AE414 00000000 ~~
-Li Resistor-SMD-0805-HandSoldering
+Li Resistor-SMD-0805-HandSolder
 Cd Resistor, SMD, 0805, Hand soldering,
 Kw Resistor, SMD, 0805, Hand soldering,
 Sc 0
@@ -2530,7 +2531,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0.127 0 0.889 0.889 900 0.127 N V 21 N "R"
-T1 0.20066 2.60096 1 1 0 0.15 N I 21 N "Resistor-SMD-0805-HandSoldering"
+T1 0.20066 2.60096 1 1 0 0.15 N I 21 N "Resistor-SMD-0805-HandSolder"
 DS 0.635 0.889 2.286 0.889 0.127 21
 DS 2.286 0.889 2.286 -0.889 0.127 21
 DS 2.286 -0.889 0.635 -0.889 0.127 21
@@ -2563,10 +2564,10 @@ Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE Resistor-SMD-0805-HandSoldering
-$MODULE Resistor-SMD-0805-ReflowWave
+$EndMODULE Resistor-SMD-0805-HandSolder
+$MODULE Resistor-SMD-0805-Reflow
 Po 0 0 0 15 528AE3ED 00000000 ~~
-Li Resistor-SMD-0805-ReflowWave
+Li Resistor-SMD-0805-Reflow
 Cd Resistor, SMD, 0805, Reflow, Wave,
 Kw Resistor, SMD, 0805, Reflow, Wave,
 Sc 0
@@ -2574,7 +2575,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0.127 0 0.889 0.889 900 0.127 N V 21 N "R"
-T1 0.20066 2.60096 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-0805-ReflowWave"
+T1 0.20066 2.60096 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-0805-Reflow"
 DS 0.635 -0.889 1.651 -0.889 0.127 21
 DS 1.651 -0.889 1.651 0.889 0.127 21
 DS 1.651 0.889 0.635 0.889 0.127 21
@@ -2595,18 +2596,18 @@ At SMD N 00888000
 Ne 0 ""
 Po 1.00076 0
 $EndPAD
-$EndMODULE Resistor-SMD-0805-ReflowWave
-$MODULE Resistor-SMD-1206-HandSoldering
+$EndMODULE Resistor-SMD-0805-Reflow
+$MODULE Resistor-SMD-1206-HandSolder
 Po 0 0 0 15 5281B43A 00000000 ~~
-Li Resistor-SMD-1206-HandSoldering
-Cd Resistor, SMD, 1206, HandSoldering,
+Li Resistor-SMD-1206-HandSolder
+Cd Resistor, SMD, 1206, HandSolder,
 Kw Resistor, SMD, 1206, Hand soldering,
 Sc 0
 AR 
 Op 0 0 0
 At SMD
 T0 0 0 0.889 0.889 0 0.127 N V 21 N "R"
-T1 2.70002 2.70002 1 1 0 0.15 N I 21 N "Resistor-SMD-1206-HandSoldering"
+T1 2.70002 2.70002 1 1 0 0.15 N I 21 N "Resistor-SMD-1206-HandSolder"
 DS 1.27 -1.016 3.683 -1.016 0.127 21
 DS 3.683 -1.016 3.683 1.016 0.127 21
 DS 3.683 1.016 1.27 1.016 0.127 21
@@ -2633,10 +2634,10 @@ Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
-$EndMODULE Resistor-SMD-1206-HandSoldering
-$MODULE Resistor-SMD-1206-ReflowWave
+$EndMODULE Resistor-SMD-1206-HandSolder
+$MODULE Resistor-SMD-1206-Reflow
 Po 0 0 0 15 528AE393 00000000 ~~
-Li Resistor-SMD-1206-ReflowWave
+Li Resistor-SMD-1206-Reflow
 Cd Resistor, SMD, 1206, Reflow, Wave,
 Kw Resistor, SMD, 1206, Reflow, Wave,
 Sc 0
@@ -2644,7 +2645,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0 0 0.889 0.889 0 0.127 N V 21 N "R"
-T1 2.70002 2.70002 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-1206-ReflowWave"
+T1 2.70002 2.70002 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-1206-Reflow"
 DS -2.54 -1.016 -2.54 1.016 0.127 21
 DS -2.54 1.016 -1.27 1.016 0.127 21
 DS 1.27 1.016 2.54 1.016 0.127 21
@@ -2665,10 +2666,10 @@ At SMD N 00888000
 Ne 0 ""
 Po 1.69926 0
 $EndPAD
-$EndMODULE Resistor-SMD-1206-ReflowWave
-$MODULE Resistor-SMD-1210-ReflowWave
+$EndMODULE Resistor-SMD-1206-Reflow
+$MODULE Resistor-SMD-1210-Reflow
 Po 0 0 0 15 528AEFED 00000000 ~~
-Li Resistor-SMD-1210-ReflowWave
+Li Resistor-SMD-1210-Reflow
 Cd Resistor, SMD, 1210, Reflow, Wave,
 Kw Resistor, SMD, 1210, Reflow, Wave,
 Sc 0
@@ -2676,7 +2677,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0 0 0.889 0.889 900 0.127 N V 21 N "R"
-T1 -0.20066 3.40106 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-1210-ReflowWave"
+T1 -0.20066 3.40106 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-1210-Reflow"
 DS -2.667 -1.524 -2.667 1.524 0.127 21
 DS 2.667 1.524 2.667 -1.524 0.127 21
 DS 1.27 1.524 2.667 1.524 0.127 21
@@ -2697,10 +2698,10 @@ At SMD N 00888000
 Ne 0 ""
 Po 1.80086 0
 $EndPAD
-$EndMODULE Resistor-SMD-1210-ReflowWave
-$MODULE Resistor-SMD-2010-ReflowWave
+$EndMODULE Resistor-SMD-1210-Reflow
+$MODULE Resistor-SMD-2010-Reflow
 Po 0 0 0 15 528AE376 00000000 ~~
-Li Resistor-SMD-2010-ReflowWave
+Li Resistor-SMD-2010-Reflow
 Cd Resistor, SMD, 2010, Reflow, Wave,
 Kw Resistor, SMD, 2010, Reflow, Wave,
 Sc 0
@@ -2708,7 +2709,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0 0 0.889 0.889 0 0.127 N V 21 N "R"
-T1 0.09906 3.79984 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-2010-ReflowWave"
+T1 0.09906 3.79984 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-2010-Reflow"
 DS -3.683 -1.651 -3.683 1.651 0.127 21
 DS -3.683 1.651 -1.778 1.651 0.127 21
 DS 1.905 -1.651 3.683 -1.651 0.127 21
@@ -2729,10 +2730,10 @@ At SMD N 00888000
 Ne 0 ""
 Po 2.60096 0
 $EndPAD
-$EndMODULE Resistor-SMD-2010-ReflowWave
-$MODULE Resistor-SMD-2512-HandSoldering
+$EndMODULE Resistor-SMD-2010-Reflow
+$MODULE Resistor-SMD-2512-HandSolder
 Po 0 0 0 15 528AE465 00000000 ~~
-Li Resistor-SMD-2512-HandSoldering
+Li Resistor-SMD-2512-HandSolder
 Cd Resistor, SMD, 2512, Hand soldering,
 Kw Resistor, SMD, 2512, Hand soldering,
 Sc 0
@@ -2740,7 +2741,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0 0 0.889 0.889 0 0.127 N V 21 N "R"
-T1 -0.39878 4.20116 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-2512-HandSoldering"
+T1 -0.39878 4.20116 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-2512-HandSolder"
 DS 2.54 -2.032 7.366 -2.032 0.127 21
 DS 7.366 -2.032 7.366 2.032 0.127 21
 DS 7.366 2.032 2.54 2.032 0.127 21
@@ -2761,10 +2762,10 @@ At SMD N 00888000
 Ne 0 ""
 Po 4.8006 0
 $EndPAD
-$EndMODULE Resistor-SMD-2512-HandSoldering
-$MODULE Resistor-SMD-2512-ReflowWave
+$EndMODULE Resistor-SMD-2512-HandSolder
+$MODULE Resistor-SMD-2512-Reflow
 Po 0 0 0 15 528AE4BE 00000000 ~~
-Li Resistor-SMD-2512-ReflowWave
+Li Resistor-SMD-2512-Reflow
 Cd Resistor, SMD, 2512, Reflow, Wave,
 Kw Resistor, SMD, 2512, Reflow, Wave,
 Sc 0
@@ -2772,7 +2773,7 @@ AR
 Op 0 0 0
 At SMD
 T0 0 0 0.889 0.889 0 0.127 N V 21 N "R"
-T1 -0.39878 4.20116 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-2512-ReflowWave"
+T1 -0.39878 4.20116 0.889 0.889 0 0.127 N I 21 N "Resistor-SMD-2512-Reflow"
 DS 2.54 -1.905 4.826 -1.905 0.127 21
 DS 4.826 -1.905 4.826 1.905 0.127 21
 DS 4.826 1.905 2.54 1.905 0.127 21
@@ -2794,7 +2795,7 @@ At SMD N 00888000
 Ne 0 ""
 Po 3.50012 0
 $EndPAD
-$EndMODULE Resistor-SMD-2512-ReflowWave
+$EndMODULE Resistor-SMD-2512-Reflow
 $MODULE SOT23-DUAL-DIODE
 Po 0 0 0 15 527F8BDC 00000000 ~~
 Li SOT23-DUAL-DIODE
@@ -3359,6 +3360,83 @@ Ne 0 ""
 Po -3.5 -2.1
 $EndPAD
 $EndMODULE USB-A-MALE
+$MODULE USB-MICRO-B-47346-00001
+Po 0 0 0 15 5296E226 00000000 ~~
+Li USB-MICRO-B-47346-00001
+Sc 0
+AR 
+Op 0 0 0
+T0 -1.651 -5.207 0.762 0.762 0 0.127 N V 21 N "USB-MICRO-B-47346-00001"
+T1 -1.651 5.334 0.762 0.762 0 0.127 N V 21 N "VAL**"
+DS -4.31 0 -4.31 -4.36 0.127 21
+DS -4.31 -4.36 0.95 -4.36 0.127 21
+DS 0.95 -4.36 0.95 4.35 0.127 21
+DS 0.95 4.35 -4.31 4.35 0.127 21
+DS -4.31 4.35 -4.31 -0.1 0.127 21
+$PAD
+Sh "3" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.65
+$EndPAD
+$PAD
+Sh "1" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.3
+$EndPAD
+$PAD
+Sh "4" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.65
+$EndPAD
+$PAD
+Sh "5" R 1.38 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.3
+$EndPAD
+$PAD
+Sh "SHD" R 2.1 1.47 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.36 -2.46
+$EndPAD
+$PAD
+Sh "SHD" R 2.1 1.47 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.36 2.46
+$EndPAD
+$PAD
+Sh "SHD" R 1.9 2.375 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.66 2.9125
+$EndPAD
+$PAD
+Sh "SHD" R 1.9 2.375 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.66 -2.9125
+$EndPAD
+$EndMODULE USB-MICRO-B-47346-00001
 $MODULE USB-MINI-SMD
 Po 0 0 0 15 52961539 00000000 ~~
 Li USB-MINI-SMD
@@ -3459,9 +3537,9 @@ Ne 0 ""
 Po 0.254 2.2352
 $EndPAD
 $EndMODULE USB-MINI-SMD
-$MODULE crystal-HC49S
+$MODULE CRYSTAL-HC49S
 Po 0 0 0 15 5293923B 00000000 ~~
-Li crystal-HC49S
+Li CRYSTAL-HC49S
 Cd CRYSTAL
 Kw CRYSTAL
 Sc 0
@@ -3498,10 +3576,10 @@ At STD N 00A8FFFF
 Ne 0 ""
 Po 2.44 0
 $EndPAD
-$EndMODULE crystal-HC49S
-$MODULE crystal-HC49U-V
+$EndMODULE CRYSTAL-HC49S
+$MODULE CRYSTAL-HC49U-V
 Po 0 0 0 15 52939252 00000000 ~~
-Li crystal-HC49U-V
+Li CRYSTAL-HC49U-V
 Cd CRYSTAL
 Kw CRYSTAL
 Sc 0
@@ -3538,5 +3616,5 @@ At STD N 00A8FFFF
 Ne 0 ""
 Po 2.44 0
 $EndPAD
-$EndMODULE crystal-HC49U-V
+$EndMODULE CRYSTAL-HC49U-V
 $EndLIBRARY
